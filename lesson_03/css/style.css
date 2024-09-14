@@ -1,0 +1,86 @@
+@import url("reset.css");
+
+/* Header */
+.sections {
+  color: black;
+}
+.section_block {
+  color: blue;
+}
+.section_about {
+}
+.section_folk {
+}
+.section_diches {
+}
+.section_regions {
+}
+.section_actors {
+}
+.section_history_zakarpatia {
+}
+.section_war {
+}
+.section_footer {
+}
+/* Main */
+.ukraine_title {
+  color: yellowgreen;
+}
+.title_text_history_ukraine {
+  color: olive;
+}
+.title_text_development {
+  color: palevioletred;
+}
+.title_text_state {
+  color: orangered;
+}
+.title_text_independence {
+  color: fuchsia;
+}
+.title_text_famine {
+  color: brown;
+}
+.title_text_movement {
+  color: chartreuse;
+}
+#folk_signs {
+  color: blueviolet;
+}
+#dishes_by_region {
+  color: fuchsia;
+}
+#regions {
+  color: darkgoldenrod;
+}
+.link_region {
+  color: blue;
+}
+.actor_about {
+  color: orange;
+}
+.actor_about_span {
+  color: blue;
+}
+.actors_public_figures {
+  color: black;
+}
+.actors_public_figures_title {
+  color: burlywood;
+}
+.zakarpatia_title {
+  color: black;
+}
+.zakarpatia_title_text {
+  color: green;
+}
+.war_title {
+  color: black;
+}
+.war_link_span {
+  color: blue;
+}
+.war_title_text {
+  color: red;
+}
