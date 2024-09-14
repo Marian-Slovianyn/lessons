@@ -1,9 +1,9 @@
 @import url("reset.css");
 
 /* Header */
-.sections {
+/* .sections {
   color: black;
-}
+} */
 .section_block {
   color: blue;
 }
@@ -36,9 +36,9 @@
 .title_text_state {
   color: orangered;
 }
-.title_text_independence {
+/* .title_text_independence {
   color: fuchsia;
-}
+} */
 .title_text_famine {
   color: brown;
 }
@@ -54,33 +54,57 @@
 #regions {
   color: darkgoldenrod;
 }
-.link_region {
+.link_region_list,
+.actor_about_span,
+.war_link_span {
+  color: blue;
+}
+span.link_region {
   color: blue;
 }
 .actor_about {
   color: orange;
 }
-.actor_about_span {
-  color: blue;
-}
-.actors_public_figures {
-  color: black;
-}
+
 .actors_public_figures_title {
   color: burlywood;
 }
 .zakarpatia_title {
   color: black;
 }
-.zakarpatia_title_text {
+/* .zakarpatia_title_text {
   color: green;
-}
+} */
 .war_title {
   color: black;
 }
-.war_link_span {
+/* .war_title_text {
+  color: red;
+} */
+[class*="olso"] {
+  color: green;
+}
+h2.sections {
+  color: black;
+}
+.info p {
+  color: blueviolet;
+}
+p {
+  color: red;
+}
+li.dishes_by_region_list_item {
+  color: darkgreen;
+}
+h2.actors_public_figures {
+  color: black;
+}
+.title_development > p {
+  color: black;
+}
+.title_independence ~ p {
   color: blue;
 }
-.war_title_text {
-  color: red;
+.title_independence + p {
+  color: black;
 }
