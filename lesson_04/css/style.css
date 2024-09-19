@@ -1,0 +1,131 @@
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+/* Import style*/
+@import url("reset.css");
+@import url("fonts.css");
+
+/* Header */
+.header-block {
+}
+.header-section__list {
+  text-align: center;
+  justify-content: flex-end;
+}
+.header__link {
+  font-style: oblique;
+  color: blue;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/* Main */
+.biography-block {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.6;
+}
+.biography-title {
+  color: chocolate;
+  font-weight: 600;
+  font-size: 38px;
+  text-transform: capitalize;
+  text-shadow: 5px -5px 4px #001aff, 3px 3px 1px yellow;
+  text-align: justify;
+}
+.biography-title-text {
+  color: cadetblue;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 10px;
+}
+.button {
+  /* word-spacing: 20px;  */
+}
+.button-project {
+  font-weight: 600;
+  font-size: 16px;
+  color: violet;
+}
+.button-resume {
+  font-weight: 600;
+  font-size: 16px;
+  color: violet;
+}
+/* About */
+.about-block {
+  font-family: "DM Sans 18pt", sans-serif;
+}
+.about {
+}
+.about-title {
+  font-weight: 700;
+  font-size: 88px;
+  color: tomato;
+  text-align: right;
+}
+.about-title-text {
+  font-weight: 400;
+  font-size: 24px;
+  color: turquoise;
+}
+.product-block {
+  font-family: "Roboto", sans-serif;
+}
+.product-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 132%;
+}
+.product-title__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  white-space: nowrap;
+}
+.btn-title__kit {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: violet;
+}
+.btn-title__more {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: violet;
+}
+/* Footer */
+.my-contacts {
+  text-align: center;
+}
+.contact-color__link {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  word-spacing: 20px;
+}
+.color-link_01 {
+  color: #50e22b;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+.color-link_02 {
+  color: #e22b2b;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+.color-link_03 {
+  color: #8400ff;
+  text-decoration: line-through;
+}
+.color-link_04 {
+  color: #e2862b;
+  text-decoration: underline;
+  text-decoration-color: #00fa43;
+}
+.info {
+}
+.info-text {
+  text-shadow: 5px 5px 10px red;
+}
