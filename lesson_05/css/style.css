@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500,600,700&display=swap");
+
+@import url("reset.css");
+@import url("fonts.css");
+/*  */
+/*   font-family: "Protest Guerrilla", sans-serif;
+link...
+ */
+/* -------------------------------------- */
+
+[class="header"] {
+  margin-block: 50px;
+}
+.block-lesson h1 {
+  font-family: "Roboto", system-ui;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #000000;
+  padding-inline: 20px;
+  text-align: center;
+}
+/* -------------------------------------- */
+.main {
+}
+.container {
+}
+.container-streaming {
+  font-family: "Manrope", sans-serif;
+  background-color: #000000;
+  max-width: 100%;
+  line-height: 150%;
+  padding-top: 150px;
+  color: white;
+  max-width: 1920px;
+  overflow: hidden;
+}
+.title {
+  padding-bottom: 80px;
+  max-width: 1297px;
+}
+.title h2 {
+  font-weight: 700;
+  font-size: 38px;
+  color: #ffffff;
+  padding-bottom: 14px;
+}
+.title p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+.items {
+  margin-inline: -15px;
+}
+.item {
+  width: 33.33%;
+  padding: 15px;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 30px;
+  max-width: 1597px;
+}
+.item-content {
+  border-radius: 12px solid #675e5e;
+  border: 1px solid #262626;
+  background-color: #0f0f0f;
+  padding: 50px;
+  min-height: 285px;
+}
+.item-content p {
+  color: #808080;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+.heading img {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: 16px;
+}
+.heading {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 150%;
+}
+/* -------------------------------------- */
+
+.block-product {
+}
+.# {
+}
+.button {
+}
+.button-link {
+}
+.footer {
+}
+.footer-info {
+}
+.footer-text {
+}
