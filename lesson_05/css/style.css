@@ -13,8 +13,8 @@ link...
 }
 .block-lesson h1 {
   font-family: "Roboto", system-ui;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 900;
   line-height: 150%;
   color: #000000;
   padding-inline: 20px;
@@ -23,7 +23,8 @@ link...
 /* -------------------------------------- */
 .main {
 }
-.container {
+.container_01 {
+  background-color: #000000;
 }
 .container-streaming {
   font-family: "Manrope", sans-serif;
@@ -31,8 +32,12 @@ link...
   max-width: 100%;
   line-height: 150%;
   padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: white;
-  max-width: 1920px;
+  max-width: 1596px;
+  margin: 0 auto;
   overflow: hidden;
 }
 .title {
@@ -51,7 +56,8 @@ link...
   color: #808080;
 }
 .items {
-  margin-inline: -15px;
+  margin: 0 -15px;
+  font-size: 0;
 }
 .item {
   width: 33.33%;
@@ -62,29 +68,26 @@ link...
   max-width: 1597px;
 }
 .item-content {
-  border-radius: 12px solid #675e5e;
+  line-height: 1.5;
+  border-radius: 12px;
   border: 1px solid #262626;
   background-color: #0f0f0f;
   padding: 50px;
-  min-height: 285px;
 }
 .item-content p {
   color: #808080;
   font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
 }
 .heading img {
   display: inline-block;
   vertical-align: middle;
   border-radius: 12px;
-  border: 1px solid gray;
+  border: 1px solid #2c2c2c;
   padding: 16px;
 }
 .heading {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 150%;
+  margin-bottom: 30px;
 }
 /* -------------------------------------- */
 
