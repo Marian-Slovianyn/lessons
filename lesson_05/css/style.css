@@ -25,6 +25,9 @@
   font-family: "Manrope", sans-serif;
   background-color: #1e1e1e;
   margin-bottom: 100px;
+  min-height: 100%;
+  overflow: hidden;
+
 }
 .section-one {
   color: #fff;
@@ -106,6 +109,9 @@
 .wrapper-two {
   font-family: "Roboto", sans-serif;
   margin-bottom: 100px;
+  min-height: 100%;
+  overflow: hidden;
+
 }
 .section-two {
   max-width: 539px;
