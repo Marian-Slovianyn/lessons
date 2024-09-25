@@ -10,7 +10,7 @@ link...
 .body {
 }
 [class="header"] {
-  margin-block: 50px;
+  margin-block: 100px;
 }
 .block-lesson h1 {
   font-family: "Roboto", sans-serif;
@@ -51,7 +51,7 @@ link...
   color: #808080;
 }
 .heading {
-  margin-bottom: 80px;
+  margin-block: 80px;
   width: 1296px;
 }
 
@@ -224,4 +224,5 @@ link...
 .footer-text {
   color: yellowgreen;
   font-weight: 900;
+  font-size: 30px;
 }
