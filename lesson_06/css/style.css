@@ -199,7 +199,6 @@ main {
 }
 .agency-block {
   display: inline-block;
-  vertical-align: middle;
   margin-inline-end: 171px;
   max-width: 420px;
 }
@@ -248,8 +247,6 @@ main {
   font-size: 18px;
 }
 .agency-block-img {
-  display: inline-block;
-  vertical-align: middle;
   max-width: 529px;
   font-size: 18px;
 }
