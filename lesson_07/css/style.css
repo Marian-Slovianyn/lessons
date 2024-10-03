@@ -293,7 +293,6 @@ h2:visited {
 
 .blue-price {
   width: 495px;
-  height: 271px;
   background-color: #4a3aff;
   border-radius: 34px;
   display: inline-block;
@@ -427,7 +426,6 @@ h2:visited {
 /* Promote info */
 .promote-info p:nth-of-type(1) {
   width: 570px;
-  height: 62px;
   font-size: 16px;
   margin-bottom: 34px;
 }
@@ -461,7 +459,6 @@ h2:visited {
 }
 .promote-info p:last-of-type {
   width: 570px;
-  height: 124px;
   font-size: 16px;
 }
 /* .portfolio-template p:first-of-type {
@@ -492,14 +489,12 @@ h2:visited {
 }
 .service-info p:nth-of-type(1) {
   width: 570px;
-  height: 62px;
   font-size: 16px;
   line-height: 200%;
   margin-bottom: 34px;
 }
 .service-info p:nth-of-type(2) {
   width: 570px;
-  height: 124px;
   font-size: 16px;
 }
 .block-shape-info-1 {
@@ -534,7 +529,6 @@ h2:visited {
 .block-shape-info-2 {
   font-size: 16px;
   width: 570px;
-  height: 106px;
   color: #381401;
   line-height: 200%;
 }
