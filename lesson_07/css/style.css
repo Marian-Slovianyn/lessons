@@ -266,9 +266,12 @@ h2:visited {
 .blue-price p:first-child {
   padding-top: 45px;
   margin-bottom: 2px;
+  width: 495px;
+
   /* padding-right: 40px; */
 }
 .blue-price h2:first-of-type {
+  width: 495px;
   color: white;
   text-align: center;
   color: white;
@@ -279,6 +282,7 @@ h2:visited {
 }
 .blue-price p:nth-child(3) {
   color: #fff;
+  width: 495px;
   font-size: 20px;
   font-weight: 700;
   line-height: 110%;
