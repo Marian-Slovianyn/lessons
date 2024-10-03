@@ -1,0 +1,772 @@
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap");
+
+/* import style */
+@import url(reset.css);
+@import url(fonts.css);
+
+/* PS.PS.PS - Дeякі стилі CSS були зроблені не по макету, але це лише особисте вподобання/бачення і практика))) */
+
+body {
+}
+/* Wrapper */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/* --------------------- Container_01 ------------------------ */
+/* --------------------- Container_01 ------------------------ */
+/* --------------------- Container_01 ------------------------ */
+.container-01 {
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* --------------------- Container_02 ------------------------ */
+/* --------------------- Container_02 ------------------------ */
+/* --------------------- Container_02 ------------------------ */
+.container-02 {
+  font-family: "Epilogue", sans-serif;
+  margin: 0 auto;
+  max-width: 1000px;
+  font-size: 0;
+}
+.business-presentation-01 {
+  margin-bottom: 70px;
+}
+.number {
+  max-width: 218px;
+  max-height: 218px;
+  border-radius: 50%;
+  background-color: #4a3aff1f;
+  margin-right: 42px;
+  display: inline-block;
+  vertical-align: top;
+}
+.number p:first-child {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 108%;
+  padding: 62px;
+  color: #4a3aff;
+  display: inline-block;
+}
+.presentation-list-link {
+  max-width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.presentation-list-link p {
+  text-transform: capitalize;
+}
+.presentation-list-link p:first-child {
+  color: #4a3aff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 110%;
+  max-width: 460px;
+  margin-bottom: 8px;
+}
+.presentation-list-link a {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #1e1b39;
+  margin-bottom: 8px;
+}
+.business-presentation-01 a {
+  text-decoration: none;
+}
+/* a:focus {
+  outline-style: dashed;
+} */
+.business-presentation-01 a:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #4a3aff;
+}
+/* .presentation-list-link img {
+  max-width: 54px;
+  max-height: 54px;
+} */
+
+.presentation-list-link p:last-child {
+  color: #6e6c83;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.presentation-img-01 span::before {
+  background: url(../img/main/business-presentation/bussines-icon_01/icon_01.png)
+    0 0 no-repeat;
+  background-size: 50px;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-position: left;
+  margin-left: 10px;
+}
+
+.presentation-img-02 span::before {
+  background: url(../img/main/business-presentation/bussines-icon_01/icon_02.png)
+    0 0 no-repeat;
+  background-size: 50px;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-position: left;
+  margin-left: 10px;
+}
+.presentation-img-03 span::before {
+  background: url(../img/main/business-presentation/bussines-icon_01/icon_03.png)
+    0 0 no-repeat;
+  background-size: 50px;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-position: left;
+  margin-left: 10px;
+}
+
+/* .presentation-list-link img::after {
+  background: url(../img/main/business-presentation/bussines-icon_01/icon_01.png)
+    0 0 no-repeat;
+  content: "";
+  display: none;
+  display: inline-block;
+} */
+/* .business-presentation-01 {
+  font-size: 0;
+  padding: 20px;
+}
+.presentation-list-link a {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.business-presentation-01 p {
+  width: 629.692px;
+  font-size: 24px;
+  line-height: 175%;
+}
+.business-presentation-01 a {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.number:first-child {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 218px;
+  max-height: 218px;
+  flex-shrink: 0;
+  padding: 60px;
+  border-radius: 50%;
+  background-color: #d8d4ff;
+  font-size: 88px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 108%;
+  color: #4a3aff;
+}
+.business-presentation-01 a {
+  text-decoration: none;
+}
+
+.business-presentation-01 p:first-of-type {
+  color: #4a3aff;
+  width: 90px;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* .business-presentation-01 h2:first-of-type {
+  color: #1e1b39;
+  width: 629.692px;
+} */
+/* .presentation-link h2:hover {
+  color: #2f6dbf;
+}
+.business-presentation-01 a,
+h2:visited {
+  color: #a63c3c;
+}
+.presentation-link h2:active {
+  color: blueviolet;
+}
+/* .presentation-list-link p:first-of-type {
+  color: #4a3aff;
+} */
+
+/* .presentation-link:hover {
+  text-decoration: none;
+}   */
+/* .presentation-list-link span {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 218px;
+  max-height: 218px;
+  flex-shrink: 0;
+  padding: 60px;
+  border-radius: 50%;
+  background-color: #d8d4ff;
+  font-size: 88px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 108%;
+  color: #4a3aff;
+} */
+
+/* --------------------- Container_03 ------------------------ */
+/* --------------------- Container_03 ------------------------ */
+/* --------------------- Container_03 ------------------------ */
+.container-03 {
+  font-family: "DM Sans", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+  font-size: 0;
+  margin-bottom: 100px;
+}
+
+.business-presentation-02 h2:nth-child(1) {
+  width: 727px;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 108%;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  color: #1e1b39;
+}
+.business-content {
+  padding: 25px;
+  width: 543px;
+  min-height: 617px;
+  border-radius: 56px;
+  background-color: #f0f0f6;
+  display: inline-block;
+  margin-inline: 45px;
+  /* box-shadow: 10px 10px 40px 20px #000; */
+}
+
+.business-card-number p:first-of-type {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 107%;
+  color: #fff;
+  display: inline-block;
+}
+.blue-price p:first-child {
+  padding-top: 45px;
+  margin-bottom: 2px;
+  /* padding-right: 40px; */
+}
+.blue-price h2:first-of-type {
+  color: white;
+  text-align: center;
+  color: white;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 104%;
+  margin-bottom: 6px;
+}
+.blue-price p:nth-child(3) {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 110%;
+  opacity: 0.6;
+}
+/* .business-content:not(:last-child) {
+} */
+
+/* .business-cards {
+  text-align: center;
+} */
+
+.blue-price {
+  width: 495px;
+  height: 271px;
+  background-color: #4a3aff;
+  border-radius: 34px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.business-card-number ul:first-child {
+  color: #1e1b39;
+}
+
+.business-list {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+  width: 534px;
+  padding: 20px;
+}
+
+/* Я тут */
+/* .business-list li span {
+  background: url(../img/main/business-presentation/list/check.png) no-repeat;
+  background-size: 35px;
+  width: 36px;
+  height: 36px;
+  background-position: left;
+  vertical-align: top;
+  margin-bottom: 26px;
+  margin-right: 20px;
+} */
+.business-list li span::before {
+  background: url(../img/main/business-presentation/list/check.png) no-repeat;
+  background-size: 36px;
+  content: "";
+  width: 36px;
+  height: 36px;
+  background-position: left;
+  vertical-align: top;
+  margin-bottom: 26px;
+  margin-right: 20px;
+}
+.business-list li span:hover::before {
+  transform: scale(1.5);
+  /* background-color: #6e6c83; */
+}
+
+/* --------------------- Container_04 ------------------------ */
+/* --------------------- Container_04 ------------------------ */
+/* --------------------- Container_04 ------------------------ */
+.container-04 {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fdf0e9;
+}
+.portfolio-template {
+  margin: 0 auto;
+  font-size: 0;
+  max-width: 1440px;
+  padding: 250px;
+  margin-bottom: 50px;
+}
+.block-01 li {
+  list-style-type: disc;
+}
+.block-02 li {
+  list-style-type: decimal;
+}
+.portfolio-img span::after {
+  background: url(../img/main/portfolio-template/two-people.png) 0px 0px / 100%
+    100% no-repeat;
+  background-size: 970px;
+  content: "";
+  width: 970px;
+  height: 592px;
+  margin-bottom: 74px;
+  /* box-shadow: 10px 10px 40px 20px #000; */
+}
+.portfolio-img:hover {
+}
+.portfolio-template > *:not(:first-child) {
+  margin-inline: 20%;
+}
+/* .portfolio-template > p *:not(:first-letter) {
+  font-size: 16px;
+  line-height: 200%;
+  width: 570px;
+} */
+
+/* .portfolio-template > :nth-of-type(1) {
+  padding-left: 17%;
+} */
+/* .portfolio-template > :nth-of-type(2) {
+  padding-left: 30%;
+} */
+
+/* .portfolio-text p:nth-of-type(1) {
+  font-size: 20px;
+  line-height: 160%;
+  width: 570px;
+  height: 66px;
+  margin-bottom: 32px;
+  color: #391400;
+}
+.portfolio-text p:nth-of-type(2) {
+  font-size: 16px;
+  line-height: 200%;
+  width: 570px;
+  height: 106px;
+  color: #391400a3;
+} */
+/* .portfolio-text :last-of-type {
+  margin-bottom: 58px;
+} */
+/* .promote-info {
+  padding-left: 30%;
+} */
+.portfolio-text {
+  margin-bottom: 60px;
+}
+.portfolio-text p:nth-of-type(1) {
+  width: 570px;
+  font-size: 20px;
+  color: #391400;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+.portfolio-text p:nth-last-of-type(1) {
+  width: 570px;
+  font-size: 16px;
+  line-height: 200%;
+}
+/* Promote info */
+.promote-info p:nth-of-type(1) {
+  width: 570px;
+  height: 62px;
+  font-size: 16px;
+  margin-bottom: 34px;
+}
+.portfolio-template p:not(:first-child) {
+  line-height: 200%;
+  color: #391400a3;
+}
+.info-list {
+  margin-left: 20px;
+  margin-bottom: 32px;
+  /* color: #391400; */
+}
+.promote-info li::marker {
+  color: #ef6d58;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.promote-info {
+  margin-bottom: 65px;
+}
+/* .promote-info li {
+  list-style-type: square;
+  color: #ef6d58;
+  margin-right: 10px;
+  font-size: 18px;
+} */
+.info-list {
+  width: 550px;
+  font-size: 16px;
+  line-height: 200%;
+}
+.promote-info p:last-of-type {
+  width: 570px;
+  height: 124px;
+  font-size: 16px;
+}
+/* .portfolio-template p:first-of-type {
+  width: 570px;
+  font-size: 20px;
+} */
+
+.portfolio-template h2:nth-of-type(1) {
+  color: #391400;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133%;
+  margin-bottom: 35px;
+}
+
+/* .portfolio-template p:not(:first-child) {
+  width: 570px;
+  font-size: 16px;
+} */
+/* .block-shape-info p {
+  width: 570px;
+  font-size: 16px;
+} */
+
+/* Service info */
+.service-info {
+  margin-bottom: 80px;
+}
+.service-info p:nth-of-type(1) {
+  width: 570px;
+  height: 62px;
+  font-size: 16px;
+  line-height: 200%;
+  margin-bottom: 34px;
+}
+.service-info p:nth-of-type(2) {
+  width: 570px;
+  height: 124px;
+  font-size: 16px;
+}
+.block-shape-info-1 {
+  display: block;
+  padding: 40px 32px 37px 80px;
+  background-color: #f9e5da;
+  margin-bottom: 80px;
+  width: 570px;
+}
+.block-shape-info-1 span::before {
+  /* background: url(../img/main/portfolio-template/two-people.png) no-repeat; */
+  background: url(../img/main/portfolio-template//Shape.png) no-repeat;
+  content: "";
+  background-size: 48px;
+  margin-left: -52px;
+  width: 48px;
+  height: 36px;
+  padding: 20px;
+  height: 36px;
+}
+
+.shape-info p:first-of-type {
+  display: inline-block;
+  width: 426px;
+  /* padding-left: 3px; */
+  margin-left: 25px;
+  vertical-align: top;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #391400;
+}
+.block-shape-info-2 {
+  font-size: 16px;
+  width: 570px;
+  height: 106px;
+  color: #381401;
+  line-height: 200%;
+}
+/* --------------------- Container_05 ------------------------ */
+/* --------------------- Container_05 ------------------------ */
+/* --------------------- Container_05 ------------------------ */
+
+/* -------------------- GAME GAME GAME ---------------------- */
+.container-game {
+  font-size: 0;
+  margin: 0 auto;
+  background-color: #000000;
+  box-shadow: 10px 10px 40px 20px #1e0000;
+}
+.my-game {
+  background: url(../img/game/background-images.jpg) no-repeat;
+  width: 1400px;
+  height: 765px;
+  margin: 0 auto 100px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.block__game {
+}
+.header-game-name {
+}
+.my-game-start-end {
+}
+/* .header-game-name h2 {
+  background-image: url(../img/game/background-images.jpg);
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 200%;
+  background-clip: text;
+  background-size: cover;
+  color: transparent;
+  background-color: blue;
+  text-transform: uppercase;
+  visibility: visible;
+} */
+/* Game block */
+.block__game {
+  text-align: center;
+}
+.my-game-start span {
+  background-color: white;
+  text-transform: uppercase;
+  visibility: visible;
+  color: transparent;
+  font-size: 50px;
+  border: 2px solid rgb(152, 99, 0);
+  border-radius: 20px;
+  color: wheat;
+  cursor: crosshair;
+  box-shadow: 10px 10px 40px 20px #000;
+}
+.my-game-start span:hover {
+  background-color: lightblue;
+}
+.my-game-end span:hover {
+  background-color: lightblue;
+}
+.my-game-end span {
+  background-color: white;
+  text-transform: uppercase;
+  visibility: visible;
+  color: transparent;
+  font-size: 50px;
+  border: 2px solid rgb(152, 99, 0);
+  border-radius: 20px;
+  color: wheat;
+  cursor: crosshair;
+  box-shadow: 10px 10px 40px 20px #000;
+}
+
+.my-game-01 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 20px;
+  height: 245px;
+  margin-left: 49.4%;
+  cursor: crosshair;
+}
+.block__game {
+  visibility: hidden;
+}
+.my-game-02 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 500px;
+  height: 10px;
+  margin-left: 49.4%;
+  cursor: crosshair;
+  margin-top: -10px;
+}
+.my-game-03 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 20px;
+  height: 100px;
+  margin-left: 83.7%;
+  margin-top: -10px;
+  cursor: crosshair;
+}
+.my-game-04 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 1000px;
+  height: 20px;
+  margin-left: 13.7%;
+  cursor: crosshair;
+  margin-top: -20px;
+}
+.my-game-05 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 10px;
+  height: 200px;
+  margin-left: 13.7%;
+  margin-top: -200px;
+  cursor: crosshair;
+}
+.my-game-06 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 100px;
+  height: 20px;
+  margin-top: -199.99px;
+  margin-left: 7.3%;
+  cursor: crosshair;
+}
+.my-game-07 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 20px;
+  height: 400px;
+  margin-left: 7.3%;
+  cursor: crosshair;
+  margin-top: -20px;
+}
+.my-game-08 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 400px;
+  height: 10px;
+  margin-left: 7.3%;
+  cursor: crosshair;
+  margin-top: -10px;
+}
+.my-game-09 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 30px;
+  height: 150px;
+  margin-left: 33.7%;
+  margin-top: -150px;
+  cursor: crosshair;
+}
+.my-game-10 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 250px;
+  height: 10px;
+  margin-left: 33.7%;
+  margin-top: -150px;
+  cursor: crosshair;
+}
+.my-game-11 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: 34px;
+  height: 270px;
+  margin-left: 49.1%;
+  cursor: crosshair;
+}
+.my-game .my-game-01 .header-game-name:hover {
+  visibility: visible;
+}
+/* .my-game-13 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: ;
+  height: ;
+  margin-left: ;
+}
+.my-game-14 {
+  background: url(../img/game/game-position.jpeg) no-repeat;
+  width: ;
+  height: ;
+  margin-left: ;
+} */
+.my-game-start:hover ~ .my-game-01:nth-child(2),
+.my-game-01:nth-child(2):hover {
+  visibility: visible;
+}
+.my-game-01:hover ~ .my-game-02:nth-child(3),
+.my-game-02:nth-child(3):hover {
+  visibility: visible;
+}
+.my-game-02:hover ~ .my-game-03:nth-child(4),
+.my-game-03:nth-child(4):hover {
+  visibility: visible;
+}
+.my-game-03:hover ~ .my-game-04:nth-child(5),
+.my-game-04:nth-child(5):hover {
+  visibility: visible;
+}
+.my-game-04:hover ~ .my-game-05:nth-child(6),
+.my-game-05:nth-child(6):hover {
+  visibility: visible;
+}
+.my-game-05:hover ~ .my-game-06:nth-child(7),
+.my-game-06:nth-child(7):hover {
+  visibility: visible;
+}
+.my-game-06:hover ~ .my-game-07:nth-child(8),
+.my-game-07:nth-child(8):hover {
+  visibility: visible;
+}
+.my-game-07:hover ~ .my-game-08:nth-child(9),
+.my-game-08:nth-child(9):hover {
+  visibility: visible;
+}
+.my-game-08:hover ~ .my-game-09:nth-child(10),
+.my-game-09:nth-child(10):hover {
+  visibility: visible;
+}
+.my-game-09:hover ~ .my-game-10:nth-child(11),
+.my-game-10:nth-child(11):hover {
+  visibility: visible;
+}
+.my-game-10:hover ~ .my-game-11:nth-child(12),
+.my-game-11:nth-child(12):hover {
+  visibility: visible;
+}
+
+/* --------------------- footer ------------------------ */
+/* --------------------- footer ------------------------ */
+/* --------------------- footer ------------------------ */
+.footer {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+.footer-info {
+}
