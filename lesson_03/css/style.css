@@ -4,78 +4,78 @@
 /* .sections {
   color: black;
 } */
-.section_block {
+.section-block {
   color: blue;
 }
-.section_about {
+/* .section-about {
 }
-.section_folk {
+.section-folk {
 }
-.section_diches {
+.section-diches {
 }
-.section_regions {
+.section-regions {
 }
-.section_actors {
+.section-actors {
 }
-.section_history_zakarpatia {
+.section-history-zakarpatia {
 }
-.section_war {
+.section-war {
 }
-.section_footer {
-}
+.section-footer {
+} */
 /* Main */
-.ukraine_title {
+.ukraine-title {
   color: yellowgreen;
 }
-.title_text_history_ukraine {
+.title-text-history-ukraine {
   color: olive;
 }
-.title_text_development {
+.title-text-development {
   color: palevioletred;
 }
-.title_text_state {
+.title-text-state {
   color: orangered;
 }
 /* .title_text_independence {
   color: fuchsia;
 } */
-.title_text_famine {
+.title-text-famine {
   color: brown;
 }
-.title_text_movement {
+.title-text-movement {
   color: chartreuse;
 }
-#folk_signs {
+#folk-signs {
   color: blueviolet;
 }
-#dishes_by_region {
+#dishes-by-region {
   color: fuchsia;
 }
 #regions {
   color: darkgoldenrod;
 }
-.link_region_list,
-.actor_about_span,
-.war_link_span {
+.link-region-list,
+.actor-about-span,
+.war-link-span {
   color: blue;
 }
-span.link_region {
+span.link-region {
   color: blue;
 }
-.actor_about {
+.actor-about {
   color: orange;
 }
 
-.actors_public_figures_title {
+.actors-public-figures-title {
   color: burlywood;
 }
-.zakarpatia_title {
+.zakarpat-title {
   color: black;
 }
 /* .zakarpatia_title_text {
   color: green;
 } */
-.war_title {
+.war-title {
   color: black;
 }
 /* .war_title_text {
@@ -93,18 +93,18 @@ h2.sections {
 p {
   color: red;
 }
-li.dishes_by_region_list_item {
+li.dishes-by-region-list-item {
   color: darkgreen;
 }
-h2.actors_public_figures {
+h2.actors-public-figures {
   color: black;
 }
-.title_development > p {
+.title-development > p {
   color: black;
 }
-.title_independence ~ p {
+.title-independence ~ p {
   color: blue;
 }
-.title_independence + p {
+.title-independence + p {
   color: black;
 }
