@@ -10,11 +10,11 @@
 /* Header */
 .header-block {
 }
-.header-section__list {
+.header-section-list {
   text-align: center;
   justify-content: flex-end;
 }
-.header__link {
+.header-link {
   font-style: oblique;
   color: blue;
   font-weight: 600;
@@ -86,19 +86,19 @@
   font-size: 50px;
   line-height: 132%;
 }
-.product-title__text {
+.product-title-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 167%;
   white-space: nowrap;
 }
-.btn-title__kit {
+.btn-title-kit {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
   color: violet;
 }
-.btn-title__more {
+.btn-title-more {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -108,26 +108,26 @@
 .my-contacts {
   text-align: center;
 }
-.contact-color__link {
+.contact-color-link {
   letter-spacing: 10px;
   text-transform: uppercase;
   word-spacing: 20px;
 }
-.color-link_01 {
+.color-link-01 {
   color: #50e22b;
   text-decoration: underline;
   text-decoration-style: wavy;
 }
-.color-link_02 {
+.color-link-02 {
   color: #e22b2b;
   text-decoration: underline;
   text-decoration-style: dashed;
 }
-.color-link_03 {
+.color-link-03 {
   color: #8400ff;
   text-decoration: line-through;
 }
-.color-link_04 {
+.color-link-04 {
   color: #e2862b;
   text-decoration: underline;
   text-decoration-color: #00fa43;
