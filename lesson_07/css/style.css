@@ -370,6 +370,7 @@ h2:visited {
   content: "";
   width: 970px;
   height: 592px;
+  width: 100%;
   margin-bottom: 74px;
   /* box-shadow: 10px 10px 40px 20px #000; */
 }
