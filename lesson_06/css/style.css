@@ -154,7 +154,7 @@ body {
   text-align: center;
 }
 .link-button {
-  min-width: 251px;
+  max-width: 251px;
   background: #e50000;
   border-radius: 8px;
   padding: 18px 24px;
@@ -199,8 +199,8 @@ main {
 }
 .agency-block {
   display: inline-block;
+  vertical-align: middle;
   margin-inline-end: 171px;
-  max-width: 420px;
 }
 
 .features {
@@ -247,9 +247,10 @@ main {
   font-size: 18px;
 }
 .agency-block-img {
+  display: inline-block;
+  vertical-align: middle;
   max-width: 529px;
   font-size: 18px;
-  width: 100%;
 }
 /* Homework_01 */
 
@@ -477,7 +478,7 @@ main {
 .my-homework-container_03 {
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  padding: 20px;
   text-align: center;
 }
 .homework-scroll {
@@ -568,7 +569,7 @@ main {
   min-height: 150px;
   margin: 35px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   font-size: 20px;
   font-weight: 900;
 }
