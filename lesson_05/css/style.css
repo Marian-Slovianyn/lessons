@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
 /*  */
 @import url("reset.css");
 @import url("fonts.css");
 /*  */
-.body {
+body {
+}
+main {
 }
 [class="header"] {
   margin-block: 100px;
@@ -16,7 +18,7 @@
   font-weight: 900;
   line-height: 150%;
   color: tomato;
-  padding-inline: 20px;
+  margin-inline: 20px;
   text-align: center;
 }
 /* Wrapper one */
@@ -35,6 +37,7 @@
   padding-bottom: 177px;
   max-width: 1597px;
   margin: 0 auto;
+  font-size: 0;
 }
 /* Heading */
 .heading {
@@ -42,7 +45,7 @@
 .heading h2 {
   font-weight: 700;
   font-size: 38px;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 .heading p {
   font-weight: 400;
@@ -50,7 +53,7 @@
   color: #808080;
 }
 .heading {
-  margin-block: 80px;
+  margin-bottom: 80px;
   width: 1296px;
 }
 
@@ -114,6 +117,7 @@
 .section-two {
   max-width: 539px;
   margin: 0 auto;
+  font-size: 0;
 }
 /* Landing one */
 .landing {
@@ -219,6 +223,7 @@
 .footer {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  font-size: 0;
 }
 .footer-info {
 }
