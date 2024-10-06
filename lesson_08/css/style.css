@@ -1,4 +1,3 @@
-/* Link */
 @import url(reset.css);
 @import url(fonts.css);
 
@@ -20,7 +19,6 @@ header h1 {
   font-size: 50px;
   text-align: center;
 }
-/* Main: Block 1 */
 .container {
   margin: 0 auto;
   width: 1400px;
@@ -126,10 +124,8 @@ header h1 {
   margin: 20px;
 }
 .shape-img {
-  /* max-width: 32px; */
   background: url(../img/main/vector/shape-01.svg) center no-repeat,
     url(../img/main/vector/star-back-01.svg) no-repeat;
-  /* border: 2px solid red; */
   width: 147px;
   height: 146px;
   display: inline-block;
@@ -145,7 +141,6 @@ header h1 {
 }
 .rectangle {
   background: url(../img/main/vector/rectangle-01.svg) no-repeat;
-  /* border: 2px solid red; */
   background-size: 338px;
   width: 338px;
   height: 192px;
