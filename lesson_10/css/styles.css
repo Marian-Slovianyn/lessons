@@ -168,7 +168,6 @@ body {
 .latest__info {
   max-width: 1170px;
   margin: 0 auto;
-  padding-inline: 10px;
   margin-bottom: 80px;
   position: relative;
 }
@@ -180,7 +179,6 @@ body {
   margin-bottom: 20px;
 }
 .latest__work {
-  width: 342px;
   font-size: 56px;
   font-weight: 800;
   line-height: 114.28%; /* 64/56 */
