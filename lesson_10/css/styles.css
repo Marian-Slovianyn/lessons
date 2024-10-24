@@ -45,14 +45,14 @@ body {
 .project {
   background: #28293e;
 }
-#project {
+.project {
   margin-bottom: 50px;
 }
 .project__images {
   height: 601px;
   position: relative;
 }
-.circle::after {
+.project__images::after {
   content: "";
   background: #32334c;
   width: 370px;
@@ -63,7 +63,7 @@ body {
   top: 15%;
   z-index: 1;
 }
-.img__laptop {
+.project__laptop {
   position: relative;
   top: 0;
   left: 0;
@@ -73,7 +73,7 @@ body {
   max-width: 246px;
   z-index: 10;
 }
-.img__laptop img {
+.project__laptop img {
   max-width: 255px;
   max-height: 265px;
   position: absolute;
@@ -81,7 +81,7 @@ body {
   left: 21px;
   width: 100%;
 }
-.img__stars {
+.project__stars {
   background: url("../img/stars.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -95,7 +95,7 @@ body {
   right: -53%;
 }
 
-.img__cloud {
+.project__cloud {
   background: url("../img/cloud.svg");
   background-repeat: no-repeat;
   width: 112px;
@@ -106,7 +106,7 @@ body {
   z-index: 10;
   right: 0;
 }
-.img__half-cloud {
+.project__half-cloud {
   background: url(../img/half-cloud.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@ body {
   z-index: 10;
   left: 0;
 }
-.img__woman {
+.project__woman {
   position: absolute;
   top: 31%;
   right: 0;
@@ -127,7 +127,7 @@ body {
   z-index: 10;
   max-width: 246px;
 }
-.img__woman img {
+.project__woman img {
   position: relative;
   top: 37px;
   left: 0;
@@ -135,7 +135,7 @@ body {
   max-height: 269px;
   width: 100%;
 }
-.img__card {
+.project__card {
   background: url(../img/card.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ body {
   z-index: 10;
   left: 10%;
 }
-.img__arrow {
+.project__arrow {
   background: url(../img/arrow.svg);
   background-repeat: no-repeat;
   width: 100px;
@@ -158,7 +158,7 @@ body {
 }
 
 /* latest */
-#latest {
+.latest {
   margin-bottom: 50px;
 }
 .latest__container {
