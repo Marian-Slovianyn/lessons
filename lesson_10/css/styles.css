@@ -180,6 +180,7 @@ body {
 }
 .latest__work {
   max-width: 900px;
+  margin-right: 20px;
   font-size: 56px;
   font-weight: 800;
   line-height: 114.28%; /* 64/56 */
