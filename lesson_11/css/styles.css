@@ -195,20 +195,16 @@
   position: relative;
   border-radius: 10px;
   margin: 0px 20px 20px 0px;
-  perspective: 300px;
-  transform-style: preserve-3d;
+  perspective: 1000px;
 }
 .strong-click {
   position: absolute;
   top: 25px;
   left: 25px;
-  background-color: #5e1b1bd7;
+  /* background-color: #5e1b1bd7; */
   width: 225px;
-  /* min-height: 200px; */
   height: 220px;
   border-radius: 10px;
-  /* transform: rotateY(180deg);
-  transition: all 0.3s ease; */
 }
 .strong-click__me {
   font-size: 20px;
@@ -223,3 +219,43 @@
   transition: transform 0.5s ease-in-out;
   box-shadow: 0 0 30px 20px #ff0000;
 }
+.display-cube {
+  height: 220px;
+  transform-style: preserve-3d;
+}
+.display-cube {
+  position: absolute;
+  inset: 0;
+  /* background-color: hsla(0, 100%, 45%, 0.4); */
+  box-shadow: inset 0 0 22.375px hsl(0, 100%, 50%);
+}
+
+.display-cube--top {
+  transform: translateY(-97px) rotateX(97deg);
+  color: #ff0000;
+}
+.display-cube--bottom {
+  transform: translateY(97px) rotateX(97deg);
+
+  color: #ff0000;
+}
+.display-cube--right {
+  transform: translateX(100px) rotateY(97deg);
+  color: #ff0000;
+}
+.display-cube--left {
+  transform: translateX(-100px) rotateY(97deg);
+  color: #ff0000;
+}
+
+.display-cube--back {
+  transform: translate(27px, 26px) rotateX(170deg);
+  width: 171px;
+  color: #ff0000;
+  height: 171px;
+}
+.display-cube--front {
+  transform: translate(0) rotateX(0);
+  color: #ff0000;
+}
+/* ==== */
