@@ -16,15 +16,22 @@
 .header {
   margin-bottom: 10px;
 }
-.header__name {
+[class*="__name"] {
   text-align: center;
   font-size: 30px;
   font-weight: 900;
   color: wheat;
   padding-block: 10px;
 }
+/* .header__name {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  color: wheat;
+  padding-block: 10px;
+} */
 
-/* =====Main - audio - background===== */
+/* =====Main - background===== */
 
 .background {
 }
