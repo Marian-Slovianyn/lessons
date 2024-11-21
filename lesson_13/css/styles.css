@@ -580,6 +580,8 @@ button {
   line-height: 200%;
   color: #ef6d58;
   margin-bottom: 33px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 .founder__info h2:first-of-type {
   font-size: 40px;
