@@ -1,4 +1,4 @@
- /* Import */
+/* Import */
 @import url(resets.css);
 @import url(fonts.css);
 /* Styles */
@@ -429,7 +429,7 @@ a {
 .team__header {
   margin-bottom: 65px;
 }
-.team__title {
+.team__titles {
   display: flex;
   flex-direction: column;
   max-width: 800px;
