@@ -1,4 +1,4 @@
-/* Import */
+ /* Import */
 @import url(resets.css);
 @import url(fonts.css);
 /* Styles */
@@ -40,7 +40,7 @@ body {
 }
 /* Portfolio menu*/
 .portfolio {
-  margin-bottom: 64px;
+  margin-bottom: 180px;
 }
 
 .portfolio__header {
@@ -168,7 +168,6 @@ body {
   text-align: center;
   justify-content: center;
   color: #ffffff;
-  margin-bottom: 180px;
   transition-duration: 0.8s;
 }
 .all-link a {
