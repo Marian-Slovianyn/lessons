@@ -578,6 +578,19 @@ a {
   display: flex;
   flex-direction: column;
   align-self: center;
+  position: relative;
+}
+.founder__info span:last-child {
+  background: url(../img/founder_span.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 80px;
+  top: 8px;
+  right: 45px;
+  display: flex;
+  position: absolute;
+  z-index: 0;
 }
 .founder__info p:first-child {
   line-height: 200%;
@@ -593,6 +606,7 @@ a {
   max-width: 470px;
   color: #fff;
   margin-bottom: 45px;
+  z-index: 10;
 }
 .founder__name h3:last-of-type {
   font-size: 20px;
@@ -604,6 +618,7 @@ a {
   line-height: 171%;
   color: #ffffffa3;
 }
+
 /* Footer */
 .footer {
   display: flex;
