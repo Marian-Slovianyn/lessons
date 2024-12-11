@@ -271,7 +271,7 @@ input[type="number"] {
   background-color: rgba(229, 0, 0, 1);
   color: #fff;
   border-radius: 8px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 .block-button button:focus-visible {
   outline: 2px solid #999;
