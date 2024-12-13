@@ -153,7 +153,7 @@ input[type="number"] {
   font-size: 18px;
 }
 .global-form-02__container {
-  max-width: 936px;
+  max-width: 938px;
 }
 .global-form-02 {
   background-color: #141414;
@@ -179,6 +179,7 @@ input[type="number"] {
 }
 .form-stream {
   color: white;
+  border: 1px solid #262626;
 }
 
 .stream-block label {
