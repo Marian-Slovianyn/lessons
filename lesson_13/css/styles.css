@@ -40,7 +40,7 @@ body {
 }
 /* Portfolio menu*/
 .portfolio {
-  margin-bottom: 180px;
+  margin-bottom: 110px;
 }
 
 .portfolio__header {
@@ -86,7 +86,7 @@ body {
 }
 .block sup {
   line-height: 170%;
-  margin-block-start: -5px;
+  margin-block-start: -8px;
   /* transition-duration: 0.2s; */
 }
 
@@ -202,6 +202,7 @@ a {
 /* === Started === */
 .started {
   margin-bottom: 140px;
+  padding-top: 80px;
 }
 .started__woman {
   z-index: 1;
@@ -248,8 +249,8 @@ a {
   position: relative;
 }
 .started__info {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   flex: 0 1 248px;
   padding-block: 75px;
 }
@@ -391,14 +392,16 @@ a {
 }
 .strip {
   width: 285px;
-  border: 1px solid #3a3c56;
-  margin-bottom: 40px;
+  /* border: 1px solid #3a3c56; */
+  /* margin-bottom: 40px; */
 }
 .events__info {
   display: flex;
   flex-direction: column;
   gap: 20px;
   flex-grow: 1;
+  border-top: 1px solid #3a3c56;
+  padding-top: 40px;
 }
 .events__info h3:first-child {
   font-size: 24px;
@@ -455,6 +458,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  gap: 20px;
 }
 
 .position-button {
