@@ -688,11 +688,11 @@ select {
   }
 }
 /* ==== */
-/* @media (max-width: 425px) {
+@media (max-width: 425px) {
   .portfolio__items h2 {
     font-size: 30px;
   }
-} */
+}
 @media (max-width: 1210px) {
   .portfolio__block,
   .portfolio__block:nth-child(4n + 2),
