@@ -114,6 +114,7 @@ body {
   position: relative;
   flex-basis: 470px;
   aspect-ratio: 640 / 416;
+  flex: 1 1 40%;
 }
 
 .portfolio__items {
