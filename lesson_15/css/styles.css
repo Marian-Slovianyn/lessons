@@ -1,4 +1,4 @@
-/* Import */
+ /* Import */
 @import url(resets.css);
 @import url(fonts.css);
 /* Styles */
@@ -676,6 +676,7 @@ select {
     padding: 10px 15px;
     color: #391400a3;
     font-size: 16px;
+    background-color: #ef6d58;
   }
   .portfolio__menu {
     display: none;
@@ -719,6 +720,55 @@ select {
   .portfolio__block:nth-child(4n + 3) {
     flex: 1 1 100%;
     aspect-ratio: 670 / 416;
+  }
+
+  .all-link a:hover {
+    background-color: initial; /* Відключає зміну фону */
+    color: inherit; /* Відключає зміну кольору */
+    transform: none; /* Скидає масштабування */
+    border-top-right-radius: 0; /* Скидає радіус рамки */
+    border-bottom-left-radius: 0; /* Скидає радіус рамки */
+  }
+  .block:hover {
+    color: inherit;
+    transform: scale(1);
+  }
+  .portfolio__block:hover .portfolio__img {
+    transform: scale(1);
+    border: 3px solid inherit;
+    opacity: 1;
+  }
+  .portfolio__block:hover .button {
+    background-color: #fff;
+    color: inherit;
+  }
+  .block:hover sup {
+    color: inherit;
+  }
+  .portfolio__block:hover h2 {
+    color: #fff;
+  }
+  .portfolio__img {
+    transition-duration: 0s;
+  }
+  .started__info a:last-child:hover {
+    background-color: #ef6d58;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    transform: scale(1);
+    color: #fff;
+  }
+  .events__link a:hover {
+    color: #fff;
+    transform: scale(1);
+    border: 1px solid;
+  }
+  .events__link a {
+    border: 1px solid;
+    padding: 5px 15px;
+  }
+  .side:hover {
+    background-color: inherit;
   }
 }
 /* ===== */
