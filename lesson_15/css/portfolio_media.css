@@ -1,0 +1,210 @@
+/* Media */
+select {
+  display: none;
+}
+@media (max-width: 500px) {
+  .portfolio__header h1 {
+    font-size: 40px;
+    line-height: 120%;
+  }
+}
+@media (max-width: 646px) {
+  select {
+    display: block;
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 6px;
+    background: #fff;
+    line-height: 200%;
+    appearance: none;
+    padding: 10px 15px;
+    color: #391400a3;
+    font-size: 16px;
+    background-color: #ef6d58;
+  }
+  .portfolio__menu {
+    display: none;
+  }
+}
+
+/* @media (max-width: 646px) {
+    .portfolio__menu {
+      display: none;
+    }
+  } */
+/* ==== */
+@media (max-width: 425px) {
+  .portfolio__items h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1210px) {
+  .portfolio__block,
+  .portfolio__block:nth-child(4n + 2),
+  .portfolio__block:nth-child(4n + 3) {
+    flex: 1 1 39%;
+    aspect-ratio: 670 / 416;
+  }
+}
+/* @media (max-width: 1210px) {
+    .portfolio__block {
+      flex: 1 1 39%;
+      aspect-ratio: 670 / 416;
+    }
+  } */
+/* @media (max-width: 786px) {
+    .portfolio__block {
+      flex: 1 1 100%;
+      aspect-ratio: 670 / 416;
+    }
+  } */
+@media (max-width: 786px) {
+  .portfolio__block,
+  .portfolio__block:nth-child(4n + 2),
+  .portfolio__block:nth-child(4n + 3) {
+    flex: 1 1 100%;
+    aspect-ratio: 670 / 416;
+  }
+
+  .all-link a:hover {
+    background-color: initial; /* Відключає зміну фону */
+    color: inherit; /* Відключає зміну кольору */
+    transform: none; /* Скидає масштабування */
+    border-top-right-radius: 0; /* Скидає радіус рамки */
+    border-bottom-left-radius: 0; /* Скидає радіус рамки */
+  }
+  .block:hover {
+    color: inherit;
+    transform: scale(1);
+  }
+  .portfolio__block:hover .portfolio__img {
+    transform: scale(1);
+    border: 3px solid inherit;
+    opacity: 1;
+  }
+  .portfolio__block:hover .button {
+    background-color: #fff;
+    color: inherit;
+  }
+  .block:hover sup {
+    color: inherit;
+  }
+  .portfolio__block:hover h2 {
+    color: #fff;
+  }
+  .portfolio__img {
+    transition-duration: 0s;
+  }
+  .started__info a:last-child:hover {
+    background-color: #ef6d58;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    transform: scale(1);
+    color: #fff;
+  }
+  .events__link a:hover {
+    color: #fff;
+    transform: scale(1);
+    border: 1px solid;
+  }
+  .events__link a {
+    border: 1px solid;
+    padding: 5px 15px;
+  }
+  .side:hover {
+    background-color: inherit;
+  }
+}
+/* ===== */
+@media (max-width: 375px) {
+  .started__info a:last-child {
+    padding: 18px 20px;
+  }
+}
+@media (max-width: 320px) {
+  .started__info a:last-child {
+    padding: 18px 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .started__images {
+    display: none;
+  }
+}
+
+@media (max-width: 823px) {
+  .started__content {
+    justify-content: center;
+  }
+}
+@media (max-width: 560px) {
+  .started__woman {
+    display: none;
+  }
+}
+/* ===== */
+@media (max-width: 425px) {
+  .events__content h2:last-child {
+    font-size: 40px;
+    line-height: 120%;
+  }
+}
+@media (max-width: 320px) {
+  .events__content h2:last-child {
+    font-size: 35px;
+    line-height: 130%;
+  }
+}
+@media (max-width: 425px) {
+  .team__title h2:last-of-type {
+    font-size: 40px;
+    line-height: 120%;
+  }
+}
+@media (max-width: 375px) {
+  .position-button {
+    display: none;
+  }
+}
+@media (max-width: 1210px) {
+  .team__developers {
+    overflow-x: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .founder__content {
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  .founder__images {
+    min-height: auto;
+  }
+}
+@media (max-width: 425px) {
+  .founder__info h2:first-of-type {
+    font-size: 24px;
+    line-height: 133%;
+    font-weight: 700;
+  }
+}
+@media (max-width: 425px) {
+  .founder__info span:last-child {
+    right: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .events,
+  .team,
+  .founder,
+  .started {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 425px) {
+  .portfolio {
+    margin-bottom: 60px;
+  }
+}
