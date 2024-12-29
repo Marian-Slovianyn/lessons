@@ -184,9 +184,8 @@
   border-radius: 10px;
   flex: 0 1 19%;
   position: relative;
-  z-index: 0;
-}
-.block-genres::after {
+ }
+.block-genres::before {
   content: "";
   position: absolute;
   top: 0;
@@ -195,7 +194,7 @@
   height: 100%;
   background: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, #1a1a1a 101.79%);
   pointer-events: none;
-/*   z-index: 10; */
+  z-index: 10;
   border-radius: 10px;
 }
 .block-genres__img {
