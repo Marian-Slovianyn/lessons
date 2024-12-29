@@ -482,8 +482,8 @@ a {
 }
 .events__link a:hover {
   color: #ef6d58;
-  border: 1px solid #3a3c56;
-}
+  transform: scale(1.2);
+ }
 /* =========== */
 /* Team */
 .team {
