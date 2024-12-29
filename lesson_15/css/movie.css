@@ -197,7 +197,7 @@
   flex: 0 1 19%;
   position: relative;
  }
-.block-genres::before {
+/* .block-genres::before {
   content: "";
   position: absolute;
   top: 0;
@@ -208,7 +208,7 @@
   pointer-events: none;
   z-index: 10;
   border-radius: 10px;
-}
+} */
 .block-genres__img {
   border-radius: 6px;
   object-fit: cover;
