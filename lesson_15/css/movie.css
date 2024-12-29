@@ -186,7 +186,7 @@
   position: relative;
   /* display: block; */
 }
-.block-genres::after {
+/* .block-genres::after {
   content: "";
   position: absolute;
   top: 0;
@@ -196,7 +196,7 @@
   background: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, #1a1a1a 101.79%);
   pointer-events: none;
   z-index: 10;
-}
+} */
 .block-genres__img {
   border-radius: 6px;
   object-fit: cover;
