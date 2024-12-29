@@ -184,9 +184,8 @@
   border-radius: 10px;
   flex: 0 1 19%;
   position: relative;
-  /* display: block; */
 }
-/* .block-genres::after {
+.block-genres::after {
   content: "";
   position: absolute;
   top: 0;
@@ -196,7 +195,8 @@
   background: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, #1a1a1a 101.79%);
   pointer-events: none;
   z-index: 10;
-} */
+  border-radius: 10px;
+}
 .block-genres__img {
   border-radius: 6px;
   object-fit: cover;
