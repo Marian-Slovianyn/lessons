@@ -14,6 +14,7 @@
   background: #e50000;
   border-radius: 5px;
 }
+
 /* ===== Page Watch Movies ===== */
 .wrapper-movies {
   min-height: 100%;
@@ -195,9 +196,12 @@
   border: 1px solid #262626;
   border-radius: 10px;
   flex: 0 1 19%;
-/*   position: relative; */
- }
-/* .block-genres::before {
+  /* position: relative; */
+}
+.block-genres__images {
+  position: relative;
+}
+.block-genres__images::before {
   content: "";
   position: absolute;
   top: 0;
@@ -208,7 +212,7 @@
   pointer-events: none;
   z-index: 10;
   border-radius: 10px;
-} */
+}
 .block-genres__img {
   border-radius: 6px;
   object-fit: cover;
@@ -378,4 +382,3 @@
     gap: 10px;
   }
 }
-
