@@ -696,46 +696,6 @@ a {
   background-color: #ef6d58;
 }
 /* ============ Media ============ */
-
-@media (max-width: 500px) {
-  .portfolio__header h1 {
-    font-size: 40px;
-    line-height: 120%;
-  }
-}
-select {
-  display: none;
-}
-@media (max-width: 646px) {
-  select {
-    display: block;
-    margin-bottom: 50px;
-    width: 100%;
-    border-radius: 6px;
-    background: #fff;
-    line-height: 200%;
-    appearance: none;
-    padding: 10px 15px;
-    color: #391400a3;
-    font-size: 16px;
-    background-color: #ef6d58;
-  }
-  .portfolio__menu {
-    display: none;
-  }
-}
-
-/* @media (max-width: 646px) {
-    .portfolio__menu {
-      display: none;
-    }
-  } */
-/* ==== */
-@media (max-width: 425px) {
-  .portfolio__items h2 {
-    font-size: 30px;
-  }
-}
 @media (max-width: 1210px) {
   .portfolio__block,
   .portfolio__block:nth-child(4n + 2),
@@ -743,19 +703,23 @@ select {
     flex: 1 1 39%;
     aspect-ratio: 670 / 416;
   }
+  .team__developers {
+    overflow-x: auto;
+  }
 }
-/* @media (max-width: 1210px) {
-    .portfolio__block {
-      flex: 1 1 39%;
-      aspect-ratio: 670 / 416;
-    }
-  } */
-/* @media (max-width: 786px) {
-    .portfolio__block {
-      flex: 1 1 100%;
-      aspect-ratio: 670 / 416;
-    }
-  } */
+@media (max-width: 1024px) {
+  .started__images {
+    display: none;
+  }
+  .founder__content {
+    justify-content: center;
+  }
+}
+@media (max-width: 823px) {
+  .started__content {
+    justify-content: center;
+  }
+}
 @media (max-width: 768px) {
   .portfolio__block,
   .portfolio__block:nth-child(4n + 2),
@@ -765,12 +729,13 @@ select {
   }
 
   .all-link a:hover {
-    background-color: initial; /* Відключає зміну фону */
-    color: inherit; /* Відключає зміну кольору */
-    transform: none; /* Скидає масштабування */
-    border-top-right-radius: 0; /* Скидає радіус рамки */
-    border-bottom-left-radius: 0; /* Скидає радіус рамки */
+    background-color: initial;
+    color: inherit;
+    transform: none;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
+
   .block:hover {
     color: inherit;
     transform: scale(1);
@@ -812,23 +777,11 @@ select {
   .side:hover {
     background-color: inherit;
   }
-}
-/* ===== */
-@media (max-width: 375px) {
-  .started__info a:last-child {
-    padding: 18px 20px;
+  .block-lesson {
+    font-size: 18px;
   }
-}
-
-@media (max-width: 1024px) {
-  .started__images {
-    display: none;
-  }
-}
-
-@media (max-width: 823px) {
-  .started__content {
-    justify-content: center;
+  .events__link a {
+    border-radius: 5px;
   }
 }
 @media (max-width: 560px) {
@@ -836,11 +789,31 @@ select {
     display: none;
   }
 }
-/* ===== */
-@media (max-width: 425px) {
-  .events__content h2:last-child {
+@media (max-width: 500px) {
+  .portfolio__header h1 {
     font-size: 40px;
     line-height: 120%;
+  }
+}
+select {
+  display: none;
+}
+@media (max-width: 646px) {
+  select {
+    display: block;
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 6px;
+    background: #fff;
+    line-height: 200%;
+    appearance: none;
+    padding: 10px 15px;
+    color: #391400a3;
+    font-size: 16px;
+    background-color: #ef6d58;
+  }
+  .portfolio__menu {
+    display: none;
   }
 }
 
@@ -849,60 +822,38 @@ select {
     font-size: 34px;
     line-height: 120%;
   }
-}
-
-@media (max-width: 1210px) {
-  .team__developers {
-    overflow-x: auto;
-  }
-}
-@media (max-width: 1024px) {
-  .founder__content {
-    justify-content: center;
-  }
-}
-@media (max-width: 425px) {
   .founder__images {
     min-height: auto;
   }
-}
-@media (max-width: 425px) {
   .founder__info h2:first-of-type {
     font-size: 24px;
     line-height: 133%;
     font-weight: 700;
   }
-}
-@media (max-width: 425px) {
   .founder__info span:last-child {
     right: 10px;
   }
   .started__content {
     padding: 20px 20px 0 20px;
   }
-}
-@media (max-width: 425px) {
   .events,
   .team,
   .founder,
   .started {
     margin-bottom: 70px;
   }
-}
-
-@media (max-width: 425px) {
   .portfolio {
     margin-bottom: 60px;
   }
-}
-@media (max-width: 768px) {
-  .block-lesson {
-    font-size: 18px;
+  .events__content h2:last-child {
+    font-size: 40px;
+    line-height: 120%;
   }
-  .events__link a {
-    border-radius: 5px;
+  .portfolio__items h2 {
+    font-size: 30px;
   }
 }
+
 @media (max-width: 375px) {
   .position-button {
     display: none;
@@ -916,6 +867,9 @@ select {
   .events__card {
     min-inline-size: 329px;
     padding: 30px;
+  }
+  .started__info a:last-child {
+    padding: 18px 20px;
   }
 }
 @media (max-width: 320px) {
