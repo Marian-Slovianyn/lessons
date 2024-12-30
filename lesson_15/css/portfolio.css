@@ -411,7 +411,8 @@ a {
   padding: 40px;
   border: 2px solid #3a3c56;
   border-radius: 6px;
-  flex-basis: 370px;
+  /* flex-basis: 370px; */
+  flex: 1 0 0;
   min-height: 448px;
 }
 .date-block {
