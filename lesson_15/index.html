@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/movie.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
     <title>Lesson 15</title>
   </head>
   <body class="body">
-    <div class="wrapper-movies">
+    <div class="wrapper-portfolio">
       <header class="header">
         <div class="header__container">
-          <div class="header__name">Lesson 15</div>
+          <div class="header__name">Lesson 13</div>
         </div>
       </header>
+      <!-- === Main === -->
       <main class="main">
         <div class="lesson">
           <div class="lesson__container">
@@ -20,299 +21,371 @@
               <img
                 class="vector-right vector"
                 src="img/movies/vector-right.svg"
-                alt="Vector right"
+                alt=""
               />
-
               <a
                 target="_blank"
-                class="lesson__15 block-lesson"
-                href="index.html"
-                >Portfolio page</a
+                class="lesson__13 block-lesson"
+                href="lesson__15.html"
+                >Movies page</a
               >
               <img
                 class="vector-left vector"
                 src="img/movies/vector-left.svg"
-                alt="Vector left"
+                alt=""
               />
             </div>
           </div>
         </div>
-        <div class="movies">
-          <div class="movies__container">
-            <div class="movies-block">
-              <div class="movies-block__content">
-                <h1 class="movies-block__info">Must - Watch Movies</h1>
-                <div class="movies-block__button">
-                  <button class="button-block-left">
-                    <img src="img/movies/vector-left.svg" alt="Vector left" />
-                  </button>
-                  <div class="button-span">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <button class="button-block-right">
-                    <img src="img/movies/vector-right.svg" alt="Vector rigth" />
-                  </button>
+        <div class="portfolio">
+          <div class="portfolio__container">
+            <div class="portfolio__header">
+              <p>Portfolio</p>
+              <h1>Latest Work</h1>
+            </div>
+            <select class="portfolio__select">
+              <option value="show">Show All 14</option>
+              <option value="design">Design 6</option>
+              <option value="branding">Branding 4</option>
+              <option value="illustration">Illustration 3</option>
+              <option value="motion">Motion 1</option>
+            </select>
+            <div class="portfolio__menu">
+              <a target="_blank" class="portfolio__show block" href="#"
+                >Show All <sup>14</sup></a
+              >
+              <a target="_blank" class="portfolio__design block" href="#"
+                >Design <sup>6</sup></a
+              >
+              <a target="_blank" class="portfolio__branding block" href="#"
+                >Branding <sup>4</sup></a
+              >
+              <a target="_blank" class="portfolio__illustration block" href="#">
+                Illustration <sup>3</sup></a
+              >
+              <a target="_blank" class="portfolio__motion block" href="#"
+                >Motion <sup>1</sup></a
+              >
+            </div>
+            <!-- === Portfolio images === -->
+            <div class="portfolio__images">
+              <a target="_blank" class="portfolio__block" href="#">
+                <img class="portfolio__img" src="img/sofa.webp" alt="Icon" />
+                <div class="portfolio__items">
+                  <div class="button">Design</div>
+                  <h2>SOFA</h2>
                 </div>
+              </a>
+              <a
+                target="_blank"
+                class="portfolio__block portfolio__card"
+                href="#"
+              >
+                <img
+                  class="portfolio__img"
+                  src="img/keyboard.webp"
+                  alt="Icon"
+                />
+                <div class="portfolio__items">
+                  <div class="button">Branding</div>
+                  <h2>KeyBoard</h2>
+                </div>
+              </a>
+              <a
+                target="_blank"
+                class="portfolio__block portfolio__card"
+                href="#"
+              >
+                <img
+                  class="portfolio__img"
+                  src="img/workmedia.webp"
+                  alt="Icon"
+                />
+                <div class="portfolio__items">
+                  <div class="button">Illustration</div>
+                  <h2>Work Media</h2>
+                </div>
+              </a>
+              <a
+                target="_blank"
+                class="portfolio__block portfolio__card"
+                href="#"
+              >
+                <img class="portfolio__img" src="img/dddone.webp" alt="Icon" />
+                <div class="portfolio__items">
+                  <div class="button">Motion</div>
+                  <h2>DDDone</h2>
+                </div>
+              </a>
+              <a
+                target="_blank"
+                class="portfolio__block portfolio__card"
+                href="#"
+              >
+                <img
+                  class="portfolio__img"
+                  src="  img/keyboard.webp"
+                  alt="Icon"
+                />
+                <div class="portfolio__items">
+                  <div class="button">Design</div>
+                  <h2>SOFA</h2>
+                </div>
+              </a>
+              <a
+                target="_blank"
+                class="portfolio__block portfolio__card"
+                href="#"
+              >
+                <img class="portfolio__img" src="img/sofa.webp" alt="Icon" />
+                <div class="portfolio__items">
+                  <div class="button">Branding</div>
+                  <h2>KeyBoard</h2>
+                </div>
+              </a>
+              <a
+                target="_blank"
+                class="portfolio__block portfolio__card"
+                href="#"
+              >
+                <img
+                  class="portfolio__img"
+                  src="  img/dddone.webp"
+                  alt="Icon"
+                />
+                <div class="portfolio__items">
+                  <div class="button">Illustration</div>
+                  <h2>Work Media</h2>
+                </div>
+              </a>
+              <a
+                target="_blank"
+                class="portfolio__block portfolio__card"
+                href="#"
+              >
+                <img
+                  class="portfolio__img"
+                  src="img/workmedia.webp"
+                  alt="Icon"
+                />
+                <div class="portfolio__items">
+                  <div class="button">Motion</div>
+                  <h2>DDDone</h2>
+                </div>
+              </a>
+            </div>
+            <div class="all-link">
+              <a target="_blank" href="#">Explore More</a>
+            </div>
+          </div>
+        </div>
+        <!-- === Started === -->
+        <div class="started">
+          <div class="started__container">
+            <div class="started__content">
+              <div class="started__info">
+                <span class="started__shape"></span>
+                <p>Get Started</p>
+                <h2>We Help Companies Move Fast</h2>
+                <a target="_blank" href="#">Contact Us</a>
               </div>
-              <div class="block-movies-cards">
-                <a target="_blank" href="#" class="movies-card">
-                  <img
-                    class="movies-card__img"
-                    src="img/movies/image_01.webp"
-                    alt="Image"
-                  />
-                  <div class="time-rating">
-                    <div class="card-time">
-                      <span class="card-time__span"></span>
-                      <p>1h 57min</p>
-                    </div>
-                    <div class="rating">
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating_02.svg" alt="Star" />
-                      <p>20K</p>
-                    </div>
-                  </div>
-                  <div class="movies-card__rating"></div>
-                </a>
-                <a target="_blank" href="#" class="movies-card">
-                  <img
-                    class="movies-card__img"
-                    src="img/movies/image_02.webp"
-                    alt="Image"
-                  />
-
-                  <div class="time-rating">
-                    <div class="card-time">
-                      <span class="card-time__span"></span>
-                      <p>1h 30min</p>
-                    </div>
-                    <div class="rating">
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating_02.svg" alt="Star" />
-                      <p>20K</p>
-                    </div>
-                  </div>
-                </a>
-
-                <a target="_blank" href="#" class="movies-card">
-                  <img
-                    class="movies-card__img"
-                    src="img/movies/image_03.webp"
-                    alt="Image"
-                  />
-                  <div class="time-rating">
-                    <div class="card-time">
-                      <span class="card-time__span"></span>
-                      <p>1h 42min</p>
-                    </div>
-                    <div class="rating">
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating_02.svg" alt="Star" />
-                      <p>20K</p>
-                    </div>
-                  </div>
-                </a>
-                <a target="_blank" href="#" class="movies-card">
-                  <img
-                    class="movies-card__img"
-                    src="img/movies/image_04.webp"
-                    alt="Image"
-                  />
-                  <div class="time-rating">
-                    <div class="card-time">
-                      <span class="card-time__span"></span>
-                      <p>2h 10min</p>
-                    </div>
-                    <div class="rating">
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating.svg" alt="Star" />
-                      <img src="img/movies/rating_02.svg" alt="Star" />
-                      <p>20K</p>
-                    </div>
-                  </div>
-                </a>
+              <img class="started__images" src="img/block.webp" alt="Icon" />
+              <div class="started__woman">
+                <img src="img/woman.png" alt="The woman smiles" />
               </div>
             </div>
-            <div class="movies-block">
-              <div class="block-shows">
-                <a class="block-shows__link" target="_blank" href="#">Shows</a>
-              </div>
-              <div class="movies-block__content">
-                <h2 class="movies-block__info">Our Genres</h2>
-                <div class="movies-block__button">
-                  <button class="button-block-left">
-                    <img src="img/movies/vector-left.svg" alt="Vector left" />
-                  </button>
-                  <div class="button-span">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <button class="button-block-right">
-                    <img src="img/movies/vector-right.svg" alt="Vector right" />
-                  </button>
+          </div>
+        </div>
+        <div class="events">
+          <div class="events__container">
+            <div class="events__content">
+              <p>Events</p>
+              <h2>
+                Explore Future <br />
+                Conferences
+              </h2>
+            </div>
+            <div class="events__cards">
+              <div class="events__card">
+                <div class="date-block">
+                  <div class="date-block__day">3</div>
+                  <div class="date-block__month">November <br />2021</div>
+                </div>
+                <div class="hour-block">9:00 am – 3:00 pm</div>
+                <div class="strip"></div>
+
+                <div class="events__info">
+                  <h3>Design Weeks</h3>
+                  <p>
+                    Digital agency is a business you hire to outsource your
+                    digital.
+                  </p>
+                </div>
+                <div class="events__link">
+                  <a target="_blank" href="#">Explore Now</a>
                 </div>
               </div>
-              <!-- ===== Genres ===== -->
-              <!-- Фото брав контейнером, а не окремо, так, як з'явиться зайвий код, а ці фото не в тому варіанті щоб змінювати, так, як це виключно жанри  -->
-              <div class="block-movies-genres">
-                <a target="_blank" href="#" class="block-genres">
-                  <div class="block-genres__images">
-                    <img
-                      class="block-genres__img"
-                      src="img/movies/genres/block-genres_01.webp"
-                      alt="Image"
-                    />
-                  </div>
-                  <div class="block-genres__title">
-                    <div class="genre-title">Action</div>
+              <div class="events__card">
+                <div class="date-block">
+                  <div class="date-block__day">15</div>
+                  <div class="date-block__month">November <br />2021</div>
+                </div>
+                <div class="hour-block">1:00 pm – 8:00 pm</div>
+                <div class="strip"></div>
 
-                    <svg
-                      class="icon"
-                      width="24"
-                      height="20"
-                      viewBox="0 0 24 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.75 1.25L22.5 10M22.5 10L13.75 18.75M22.5 10H1.5"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </a>
-                <a target="_blank" href="#" class="block-genres">
-                  <div class="block-genres__images">
-                    <img
-                      class="block-genres__img"
-                      src="img/movies/genres/block-genres_02.webp"
-                      alt="Image"
-                    />
-                  </div>
-                  <div class="block-genres__title">
-                    <div class="genre-title">Adventure</div>
-                    <svg
-                      class="icon"
-                      width="24"
-                      height="20"
-                      viewBox="0 0 24 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.75 1.25L22.5 10M22.5 10L13.75 18.75M22.5 10H1.5"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </a>
-                <a target="_blank" href="#" class="block-genres">
-                  <div class="block-genres__images">
-                    <img
-                      class="block-genres__img"
-                      src="img/movies/genres/block-genres_04.webp"
-                      alt="Image"
-                    />
-                  </div>
-                  <div class="block-genres__title">
-                    <div class="genre-title">Comedy</div>
-                    <svg
-                      class="icon"
-                      width="24"
-                      height="20"
-                      viewBox="0 0 24 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.75 1.25L22.5 10M22.5 10L13.75 18.75M22.5 10H1.5"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </a>
+                <div class="events__info">
+                  <h3>Interior Design</h3>
+                  <p>Marketing efforts, instead of handling in-house.</p>
+                </div>
+                <div class="events__link">
+                  <a target="_blank" href="#">Explore Now</a>
+                </div>
+              </div>
+              <div class="events__card">
+                <div class="date-block">
+                  <div class="date-block__day">2</div>
+                  <div class="date-block__month">December <br />2021</div>
+                </div>
+                <div class="hour-block">10:00 am – 2:00 pm</div>
+                <div class="strip"></div>
+                <div class="events__info">
+                  <h3>The F design events</h3>
+                  <p>
+                    Provide your business with a variety of digital solutions to
+                    promote.
+                  </p>
+                </div>
+                <div class="events__link">
+                  <a target="_blank" href="#">Explore Now</a>
+                </div>
+              </div>
+              <!-- TEST -->
+              <div class="events__card">
+                <div class="date-block">
+                  <div class="date-block__day">0</div>
+                  <div class="date-block__month">November <br />2024</div>
+                </div>
+                <div class="hour-block">00:00 am – 00:00 pm</div>
+                <div class="strip"></div>
+                <div class="events__info">
+                  <h3>TEST</h3>
+                  <p></p>
+                </div>
+                <div class="events__link">
+                  <a target="_blank" href="#">Explore Now</a>
+                </div>
+              </div>
+              <div class="events__card">
+                <div class="date-block">
+                  <div class="date-block__day">0</div>
+                  <div class="date-block__month">November <br />2024</div>
+                </div>
+                <div class="hour-block">00:00 am – 00:00 pm</div>
+                <div class="strip"></div>
+                <div class="events__info">
+                  <h3>TEST</h3>
+                  <p></p>
+                </div>
+                <div class="events__link">
+                  <a target="_blank" href="#">Explore Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="all-link">
+              <a target="_blank" href="#">Explore More</a>
+            </div>
+          </div>
+        </div>
+        <div class="team">
+          <div class="team__container">
+            <div class="team__header">
+              <div class="team__title">
+                <p>Our Team</p>
+                <h2>Team of Designers <br />and Developers</h2>
+              </div>
+              <div class="position-button">
+                <button class="left side"></button>
+                <button class="right side"></button>
+              </div>
+            </div>
 
-                <a target="_blank" href="#" class="block-genres">
-                  <div class="block-genres__images">
-                    <img
-                      class="block-genres__img"
-                      src="img/movies/genres/block-genres_03.webp"
-                      alt="Image"
-                    />
-                  </div>
-                  <div class="block-genres__title">
-                    <div class="genre-title">Drama</div>
-                    <svg
-                      class="icon"
-                      width="24"
-                      height="20"
-                      viewBox="0 0 24 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.75 1.25L22.5 10M22.5 10L13.75 18.75M22.5 10H1.5"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </a>
-                <a target="_blank" href="#" class="block-genres">
-                  <div class="block-genres__images">
-                    <img
-                      class="block-genres__img"
-                      src="img/movies/genres/block-genres_05.webp"
-                      alt="Image"
-                    />
-                  </div>
-                  <div class="block-genres__title">
-                    <div class="genre-title">Horror</div>
-                    <svg
-                      class="icon"
-                      width="24"
-                      height="20"
-                      viewBox="0 0 24 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.75 1.25L22.5 10M22.5 10L13.75 18.75M22.5 10H1.5"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </div>
-                </a>
+            <div class="team__developers">
+              <div class="team__developer">
+                <div class="team__frame">
+                  <img
+                    src="img/developers/developer-01.webp"
+                    alt="The guy is dressed in a hat"
+                  />
+                </div>
+                <div class="team__info">
+                  <h3>Azah Anyeni</h3>
+                  <p>Designer</p>
+                </div>
+              </div>
+              <div class="team__developer">
+                <div class="team__frame">
+                  <img
+                    src="img/developers/developer-02.webp"
+                    alt="Surprised African American"
+                  />
+                </div>
+                <div class="team__info">
+                  <h3>Roelof Bekkenenks</h3>
+                  <p>React Developer</p>
+                </div>
+              </div>
+              <div class="team__developer">
+                <div class="team__frame">
+                  <img
+                    src="img/developers/developer-03.webp "
+                    alt="A smiling woman"
+                  />
+                </div>
+                <div class="team__info">
+                  <h3>Leonardo Oliveira</h3>
+                  <p>Illustrator</p>
+                </div>
+              </div>
+              <div class="team__developer">
+                <div class="team__frame">
+                  <img
+                    src="img/developers/developer-04.webp"
+                    alt="Light haired woman with long hair"
+                  />
+                </div>
+                <div class="team__info">
+                  <h3>Izabella Tabakova</h3>
+                  <p>Product Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="team__swipe">
+              <button></button>
+              <button></button>
+              <button></button>
+              <button></button>
+              <!-- <button></button>
+              <button></button> -->
+            </div>
+          </div>
+        </div>
+        <div class="founder">
+          <div class="founder__container">
+            <div class="founder__content">
+              <div class="founder__images">
+                <img src="img/founder.webp" alt="Smiling guy in glasses" />
+              </div>
+              <div class="founder__info">
+                <p>Founder Words</p>
+                <h2>
+                  Digital agency is a business you hire to outsource your
+                  digital marketing efforts
+                </h2>
+                <div class="founder__name">
+                  <h3>Ren Delan</h3>
+                  <p>Founder</p>
+                </div>
+                <span></span>
               </div>
             </div>
           </div>
