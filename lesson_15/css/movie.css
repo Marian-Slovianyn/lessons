@@ -343,7 +343,7 @@
   }
   .button-block-left:hover,
   .button-block-right:hover {
-    transition-duration: 0;
+    transition-duration: 0s;
     transform: scale(1);
     background-color: #1a1a1a;
   }
