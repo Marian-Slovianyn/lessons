@@ -760,7 +760,7 @@ a {
   }
   .portfolio__block:hover .portfolio__img {
     transform: scale(1);
-    border: 3px solid inherit;
+    border: none;
     opacity: 1;
   }
   .portfolio__block:hover .button {
