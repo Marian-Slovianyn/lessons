@@ -96,7 +96,7 @@ footer {
     padding: 120px 15px 30px;
     align-items: flex-end;
     overflow: auto;
-    transition: inset-inline-start 0.5s;
+/*     transition: inset-inline-start 0.5s; */
   }
   .agency-menu-link::before {
     content: "";
@@ -107,12 +107,13 @@ footer {
     background-color: #28293e;
     inline-size: 100%;
     z-index: 5;
-    transition: inset-inline-start 0.5s;
+/*     transition: inset-inline-start 0.5s; */
   }
   .open-menu .agency-menu-link,
   .open-menu .agency-menu-link::before {
     inset-inline-start: 0;
     background-color: cadetblue;
+     transition: all 0.5s;
   }
   .open-menu .agency-contact a {
     color: black;
