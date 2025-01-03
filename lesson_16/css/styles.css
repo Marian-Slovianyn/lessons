@@ -185,7 +185,7 @@ footer {
     display: none;
   }
 }
-@media (any-hover: hover) {
+@media (any-hover: none) {
   .agency-contact a:hover {
     text-decoration: none;
   }
