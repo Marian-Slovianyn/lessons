@@ -6,7 +6,6 @@
 /* Styles */
 body {
   font-family: "Epilogue", sans-serif;
-  overflow: hidden;
 }
 [class*="__container"] {
   max-width: 1170px;
